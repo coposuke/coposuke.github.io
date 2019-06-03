@@ -1,0 +1,32 @@
+参考サイト：https://www.imuza.com/entry/2018/02/09/164628
+
+■インストール
+
+1.hugo GithubからzipをDL
+  https://github.com/gohugoio/hugo/releases
+
+2.C:\DevelopFiles\Hugoにおいてパスを通す
+
+3.cmdにて"hugo version"で確認する
+
+
+■サイト作成
+
+1. "hugo new site quickstart"
+   C:\Users\PCName\quickstartが作成される
+
+2. 初期化
+   "cd quickstart"
+   "git init"
+
+3. テンプレートのクローン
+   "git clone https://github.com/,,,,,,,,,"
+
+4. ローカルサーバー起動
+   hugo server -t ThemeName -w -D
+
+5. ブラウザで確認
+   "http://localhost:1313"
+
+
+
